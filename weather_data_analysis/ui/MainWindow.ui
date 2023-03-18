@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>703</width>
+    <height>390</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>695</width>
+    <height>390</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>710</width>
+    <height>695</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::CustomContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextUnderIcon</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>711</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../img/背景图.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>48</width>
+     <height>48</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+   <addaction name="btn_1"/>
+   <addaction name="separator"/>
+   <addaction name="btn_2"/>
+   <addaction name="separator"/>
+   <addaction name="btn_3"/>
+   <addaction name="separator"/>
+   <addaction name="btn_4"/>
+   <addaction name="separator"/>
+   <addaction name="btn_5"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="btn_1">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/图标-1.png</normaloff>../img/图标-1.png</iconset>
+   </property>
+   <property name="text">
+    <string>温度变化分析图</string>
+   </property>
+   <property name="toolTip">
+    <string>温度变化分析图/string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="btn_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/图标-2.png</normaloff>../img/图标-2.png</iconset>
+   </property>
+   <property name="text">
+    <string>湿度变化分析图</string>
+   </property>
+   <property name="toolTip">
+    <string>湿度变化分析图</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="btn_3">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/图标-3.png</normaloff>../img/图标-3.png</iconset>
+   </property>
+   <property name="text">
+    <string>降水量变化分析图</string>
+   </property>
+   <property name="toolTip">
+    <string>降水量变化分析图</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="btn_4">
+   <property name="icon">
+    <iconset>
+     <normaloff>../img/图标-4.png</normaloff>../img/图标-4.png</iconset>
+   </property>
+   <property name="text">
+    <string>风向雷达图</string>
+   </property>
+   <property name="toolTip">
+    <string>风向雷达图</string>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
